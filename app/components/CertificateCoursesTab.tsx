@@ -3,11 +3,29 @@ import * as React from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
+import CertificateCoursesSlider from './CertificateCoursesSlider';
 
 interface TabPanelProps {
   children?: React.ReactNode;
   index: number;
   value: number;
+}
+
+type CertificateCourseType = {
+  label: string;
+  data: {
+    img: string;
+    title: string;
+    iconList: string[];
+    duration: string;
+    courseType: string;
+    description: string;
+    price: string;
+  }[];
+};
+
+interface CertificateCoursesTabProps {
+  certificateCourse: CertificateCourseType[];
 }
 
 function CustomTabPanel(props: TabPanelProps) {
@@ -33,7 +51,7 @@ function a11yProps(index: number) {
   };
 }
 
-export default function CertificateCoursesTab() {
+export default function CertificateCoursesTab({certificateCourse}: CertificateCoursesTabProps) {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
@@ -44,20 +62,24 @@ export default function CertificateCoursesTab() {
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="Item One" {...a11yProps(0)} />
-          <Tab label="Item Two" {...a11yProps(1)} />
-          <Tab label="Item Three" {...a11yProps(2)} />
+          {
+            certificateCourse.map((itm,idx)=>{
+              return(
+                <Tab key={idx} label={itm.label} />
+              )
+            })
+          }
         </Tabs>
       </Box>
-      <CustomTabPanel value={value} index={0}>
-        Item One
-      </CustomTabPanel>
-      <CustomTabPanel value={value} index={1}>
-        Item Two
-      </CustomTabPanel>
-      <CustomTabPanel value={value} index={2}>
-        Item Three
-      </CustomTabPanel>
+      {
+        certificateCourse.map((ele, i)=>{
+          return(
+            <CustomTabPanel value={value} index={i} key={i}>
+              <CertificateCoursesSlider sliderData={ele.data} />
+            </CustomTabPanel>
+          )
+        })
+      }
     </Box>
   );
 }

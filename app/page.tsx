@@ -2,7 +2,7 @@ import Image from "next/image";
 import LpHeader from "./components/header/LpHeader";
 import BasicTabs from "./components/TopCollageTab";
 import DegreeCourseTab from "./components/DegreeCourseTab";
-import CertificateCoursesTab from "./CertificateCoursesTab";
+import CertificateCoursesTab from "./components/CertificateCoursesTab";
 
 
 export default function Home() {
@@ -89,12 +89,12 @@ export default function Home() {
       label:'BTC',
       data:[
         {
-          img: '/assets/img/others/c1.jpg',
-          title: 'MBA by Liverpool Business School (IMT Pathway)',
+          img: '/assets/img/others/certificate-course-1.jpg',
+          title: 'AWS certification program',
           iconList:[
-            'assets/icons/yellow-star.png',
-            'assets/icons/yellow-star.png',
-            'assets/icons/yellow-star.png',
+            '/assets/icons/ps.png',
+            '/assets/icons/ai.png',
+            '/assets/icons/figma.png',
           ],
           duration: '4 Weeks | 60 Hours',
           courseType: 'Online',
@@ -321,7 +321,9 @@ export default function Home() {
                   <h2 className="text-[30px] text-white font-semibold">Skill-Based Certificate Courses</h2>
                 </div>
                 <div>
-                    <CertificateCoursesTab/>
+                    <CertificateCoursesTab
+                       certificateCourse={certificateCourse}
+                    />
                 </div>
               </div>
             </section>
