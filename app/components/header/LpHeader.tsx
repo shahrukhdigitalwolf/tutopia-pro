@@ -3,7 +3,7 @@ import React from 'react'
 
 function LpHeader() {
   return (
-    <header className='bg-[#232428] py-2'>
+    <header className='bg-[#232428] py-2 fixed top-0 w-full z-50'>
         <div className='px-4 lg:px-12'>
             <Image src="/assets/img/logo.webp" alt='Tutopia logo' width={50} height={50}/>
         </div>
