@@ -120,7 +120,7 @@ export default function Home() {
                                   type="submit"
                                   sx={{
                                     width:'100%',
-                                    bgcolor:'#94ff00',
+                                    bgcolor:'#ffffff',
                                     color:'inherit',
                                     fontSize:'13px'
                                   }}
@@ -145,7 +145,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="py-10 lg:py-20 bg-gradient-to-r from-[#7BFEDE] to-[#00ff9d]">
+          <section className="py-10 lg:py-20 bg-gradient-to-r from-[#8fbc8f] to-[#8fbc8f]">
             <div className="conatiner mx-auto px-4">
               <h2 className="text-center text-white text-[30px] lg:text-[50px] font-bold max-w-full w-[1300px] mx-auto leading-tight" style={{textShadow: '-2px 2px black'}}>IS A DEGREE COURSE ENOUGH
               TO FACE THE EVOLVING JOB MARKET?</h2>
