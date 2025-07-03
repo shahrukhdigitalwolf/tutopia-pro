@@ -36,12 +36,12 @@ function DegreeTabPanel(props: DegreeTabPanelProps) {
   );
 }
 
-function a11yProps(index: number) {
-  return {
-    id: `simple-tab-${index}`,
-    'aria-controls': `simple-tabpanel-${index}`,
-  };
-}
+// function a11yProps(index: number) {
+//   return {
+//     id: `simple-tab-${index}`,
+//     'aria-controls': `simple-tabpanel-${index}`,
+//   };
+// }
 
 export default function DegreeCourseTab({degreeCourse} : degreeTab) {
   const [value, setValue] = React.useState(0);
@@ -55,7 +55,7 @@ export default function DegreeCourseTab({degreeCourse} : degreeTab) {
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
             {
-                degreeCourse.map((tab, i)=>{
+                degreeCourse.map((tab)=>{
                     return(
                         <Tab label={tab.label} key={tab.label} />
                     )

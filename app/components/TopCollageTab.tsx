@@ -54,7 +54,7 @@ export default function BasicTabs({ topCollege }: BasicTabsProps) {
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="college tabs">
-          {topCollege.map((tab, idx) => (
+          {topCollege.map((tab) => (
             <Tab key={tab.label} label={tab.label} />
           ))}
         </Tabs>
