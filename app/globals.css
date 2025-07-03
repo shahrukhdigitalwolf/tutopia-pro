@@ -1,12 +1,65 @@
 @import "tailwindcss";
 
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
+.splide__arrow svg{
+  fill: #00ff84 !important;
+  width: 3.2em !important;
+  height: 3.2em !important;
+}
+@media (max-width:991px) {
+  .splide__arrow svg{
+    width: 1em !important;
+    height: 1em !important;
+  }
+}
 .text-gradient-tool{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.bgborder{
+  background: linear-gradient(#1a1a1a, #000000) padding-box, linear-gradient(145deg, #ffd900 20%, #94ff00, #fcf153) border-box !important;
+  border: 2px solid transparent !important;
+} 
+.bgImgborder{
+  background: linear-gradient(#1a1a1a, #000000) padding-box, linear-gradient(145deg, #ffd900 20%, #94ff00, #fcf153) border-box !important;
+  border: 2px solid transparent !important;
+  border-radius: 100% !important;
+} 
+
+.clipped-box1 {
+  position: relative;
+  clip-path: polygon(80% 0, 100% 50%, 80% 100%, 0 100%, 0 0);
+  background: linear-gradient(145deg, #ffd900 20%, #94ff00, #fcf153);
+  z-index: 1;
+}
+.clipped-box1::before {
+  content: '';
+  position: absolute;
+  inset: 3px; /* simulate border width */
+  background: linear-gradient(#1a1a1a, #000000); /* border color */
+  clip-path: inherit;
+  z-index: -1;
+}
+
+.clipped-box {
+  position: relative;
+  clip-path: polygon(20% 0, 100% 0%, 100% 100%, 20% 100%, 0 50%);
+  background: linear-gradient(145deg, #ffd900 20%, #94ff00, #fcf153);
+  z-index: 1;
+}
+.clipped-box::before {
+  content: '';
+  position: absolute;
+  inset: 3px; /* simulate border width */
+  background: linear-gradient(#1a1a1a, #000000); /* border color */
+  clip-path: inherit;
+  z-index: -1;
 }
