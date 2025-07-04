@@ -158,7 +158,7 @@ export default function Home() {
               <div className="flex flex-wrap text-center">
                   <div className="w-full lg:w-[45%]">
                     <div className="bg-gradient-to-l from-[#44b8a5] to-[#44b8a5] py-2 rounded-xl mb-5">
-                      <span className="text-[25px] lg:text-[40px] font-bold ">Why?</span>
+                      <span className="text-[25px] lg:text-[35px] font-semibold">WHY?</span>
                     </div>
                     <div className="bg-[#000] py-5 px-6 rounded-xl bgborder mb-5 md:h-[150px] flex justify-center flex-col" data-aos="zoom-in" data-aos-duration="1000">
                       <span className="text-white text-[18px] md:text-[22px] font-[200]">Many academic programs have yet to align fully with evolving industry demands.</span>
@@ -177,7 +177,7 @@ export default function Home() {
                   </div>
                   <div className="w-full lg:w-[45%]">
                     <div className="bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] py-2 rounded-xl mb-5">
-                      <span className="text-[25px] lg:text-[40px] font-bold">WHAT NEEDS TO BE DONE?</span>
+                      <span className="text-[25px] lg:text-[35px] font-semibold">WHAT NEEDS TO BE DONE?</span>
                     </div>
                     <div className="bg-[#000] py-5 px-6 rounded-xl bgborder mb-5 md:h-[150px] flex justify-center flex-col" data-aos="zoom-in" data-aos-duration="1500">
                       <span className="text-white text-[18px] md:text-[22px] font-[200]">Enhance your degree with industry-relevant skill training, updated to keep pace with the latest trends and technological advancements.</span>
@@ -292,46 +292,46 @@ export default function Home() {
                     </div>
                     <div className="mt-4">
                       <div className="flex items-center gap-x-2 mb-3">
-                        <Image src="/assets/icons/flip.png" alt="flip" width={40} height={40} />
+                        <Image src="/assets/icons/flip.svg" alt="flip" width={60} height={60} />
                         <h3 className="text-white text-[25px] lg:text-[30px] font-semibold leading-tight">FLIP METHOD OF TEACHING</h3>
                       </div>
-                      <p className="text-white">Traditional learning can leave students struggling with new concepts. The Flip Method turns this
+                      <p className="text-gray-200 font-[300]">Traditional learning can leave students struggling with new concepts. The Flip Method turns this
                       around by preparing students before class, making live sessions more interactive and effective.</p>
                     </div>
                     <div className="max-w-full w-[500px] mt-8 mx-auto lg:mx-0">
-                      <div className="flex items-center gap-x-2 bgborder rounded-xl p-4" data-aos="zoom-out-up" data-aos-duration="800">
+                      <div className="flex items-center gap-x-2 bgborder rounded-xl p-3" data-aos="zoom-out-up" data-aos-duration="800">
                         <div>
-                          <Image src="/assets/icons/quotes.png" alt="flip" width={50} height={50} />
+                          <Image src="/assets/icons/pre-class.svg" alt="flip" width={80} height={80} />
                         </div>
                         <div>
                           <h5 className="bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] text-[20px] font-semibold">Pre-Class Preparation</h5>
-                          <p className="text-white">Students watch structured video tutorials to build
+                          <p className="text-gray-200 font-[300]">Students watch structured video tutorials to build
                           a strong foundation before live sessions.</p>
                         </div>
                       </div>
                       <div>
                         <Image className="rotate-90 mx-auto" src='/assets/icons/arrow.png' alt="arrow" width={50} height={50}/>
                       </div>
-                      <div className="flex items-center gap-x-2 bgborder rounded-xl p-4" data-aos="zoom-out-up" data-aos-duration="1000">
+                      <div className="flex items-center gap-x-2 bgborder rounded-xl p-3" data-aos="zoom-out-up" data-aos-duration="1000">
                         <div>
-                          <Image src="/assets/icons/quotes.png" alt="flip" width={50} height={50} />
+                          <Image src="/assets/icons/live-class.svg" alt="flip" width={80} height={80} />
                         </div>
                         <div>
                           <h5 className="bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] text-[20px] font-semibold">Interactive Live Classes</h5>
-                          <p className="text-white">With prior knowledge, students engage in
+                          <p className="text-gray-200 font-[300]">With prior knowledge, students engage in
                           discussions, ask questions and clarify doubts</p>
                         </div>
                       </div>
                       <div>
                         <Image className="rotate-90 mx-auto" src='/assets/icons/arrow.png' alt="arrow" width={50} height={50} />
                       </div>
-                      <div className="flex items-center gap-x-2 bgborder rounded-xl p-4" data-aos="zoom-out-up" data-aos-duration="1200">
+                      <div className="flex items-center gap-x-2 bgborder rounded-xl p-3" data-aos="zoom-out-up" data-aos-duration="1200">
                         <div>
-                          <Image src="/assets/icons/quotes.png" alt="flip" width={50} height={50} />
+                          <Image src="/assets/icons/mock-test.svg" alt="flip" width={80} height={80} />
                         </div>
                         <div>
                           <h5 className="bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] text-[20px] font-semibold">Daily Mock Test</h5>
-                          <p className="text-white">Short post-class assessments reinforce learning
+                          <p className="text-gray-200 font-[300]">Short post-class assessments reinforce learning
                           and ensure steady improvement.</p>
                         </div>
                       </div>
@@ -350,7 +350,7 @@ export default function Home() {
           <section className="py-6 lg:py-20">
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-full w-[900px] mx-auto mb-6">
-                  <h2 className="text-[25px] lg:text-[45px] bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight">Meet the Experts Behind TutopiaPRO</h2>
+                  <h2 className="text-[25px] lg:text-[45px] bg-gradient-to-r from-[#fff] to-[#fff] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight">Meet the Experts Behind TutopiaPRO</h2>
                   <p className="text-white text-[15px] md:text-[20px] font-light">
                     We extend our gratitude to senior professionals from leading IT and tech
                     companies for vetting our courses. Their expertise ensures industry relevance,
@@ -373,7 +373,7 @@ export default function Home() {
           <section className="py-6 lg:py-20 bg-black">
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-full w-[1000px] mx-auto mb-6">
-                  <h2 className="text-[22px] lg:text-[45px] bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight mb-3">INTRODUCING OUR<br/>
+                  <h2 className="text-[22px] lg:text-[45px] bg-gradient-to-r from-[#fff] to-[#fff] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight mb-3">INTRODUCING OUR<br/>
                   ESTEEMED INDUSTRY MENTORS</h2>
                   <p className="text-white font-light">
                     At TutopiaPRO, well known industry experts mentor students, bringing real-world experience into the virtual classroom.
