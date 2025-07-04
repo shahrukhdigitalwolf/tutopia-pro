@@ -41,7 +41,7 @@ function FutureSlider() {
                             />
                             </div>
                             <div className="text-cente pt-5">
-                                <h5 className="text-[25px] text-center font-semibold mb-1 bg-gradient-to-r from-[#7BFEDE] to-[#94ff00] [background-clip:text] [-webkit-text-fill-color:transparent]">
+                                <h5 className="text-[25px] text-center font-semibold mb-1 bg-gradient-to-r from-[#FFF] to-[#FFF] [background-clip:text] [-webkit-text-fill-color:transparent]">
                                     ablished fact the reader
                                 </h5>
                                 <p className="text-[20px] text-center font-semibold text-white">18 Courses</p>

@@ -14,7 +14,7 @@ function HeroBanner() {
             className='!h-[82vh] lg:!h-[93vh] object-cover'
         />
         <div className='absolute top-[75%] lg:top-[50%] -translate-y-1/2 left-[4%] lg:left-[8%] z-10'>
-            <h1 className=' text-[50px] lg:text-[80px] font-bold uppercase leading-[1.09] bg-gradient-to-r from-[#7BFEDE] to-[#B0FE6A] [background-clip:text] [-webkit-text-fill-color:transparent]'>
+            <h1 className=' text-[50px] lg:text-[80px] font-bold uppercase leading-[1.09] bg-gradient-to-r from-[#6bffca] to-[#6bffca] [background-clip:text] [-webkit-text-fill-color:transparent]'>
               <span>Where</span><br/> 
               <span>upskilling</span><br/>
               <span>meets</span><br/>

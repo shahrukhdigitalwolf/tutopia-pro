@@ -27,7 +27,7 @@ export default function Home() {
         <main className="bg-[#232428] overflow-hidden">
           <HeroBanner/>
 
-          <section className="py-6 lg:py-12 bg-[#232428]">
+          <section className="py-6 lg:py-20 bg-[#232428]">
               <div className="max-w-full w-[1200px] mx-auto px-4">
                 <div className="flex flex-wrap gap-y-5">
                   <div className="w-full lg:w-[50%] relative flex justify-end flex-col">
@@ -60,7 +60,7 @@ export default function Home() {
                   <div className="w-full lg:w-[50%] lg:px-10">
                     <div className="px-6 pb-6 pt-3 rounded-xl bgborder">
                       <div>
-                        <h2 className="text-[20px] lg:text-[45px] font-bold mb-3 bg-gradient-to-r from-[#7BFEDE] to-[#94ff00] [background-clip:text] [-webkit-text-fill-color:transparent]">Contact Now</h2>
+                        <h2 className="text-[20px] lg:text-[45px] font-bold mb-3 bg-gradient-to-r from-[#6bffca] to-[#6bffca] [background-clip:text] [-webkit-text-fill-color:transparent]">Contact Now</h2>
                       </div>
                       <form action="#">
                         <div className="flex flex-wrap gap-y-3">
@@ -134,10 +134,10 @@ export default function Home() {
               </div>
             </section>
 
-          <section className="bg-black py-6 lg:py-12">
+          <section className="bg-black py-6 lg:py-20">
             <div className="container mx-auto px-4">
               <div className="text-center mb-6 lg:mb-20">
-                <h2 className="text-[20px] lg:text-[45px] mb-3 bg-gradient-to-r from-[#7BFEDE] to-[#94ff00] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight" data-aos="fade-up" data-aos-duration="800">YOUR NEXT BIG STEP AFTER 10+2!</h2>
+                <h2 className="text-[20px] lg:text-[45px] mb-3 bg-gradient-to-r from-[#6bffca] to-[#6bffca] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight" data-aos="fade-up" data-aos-duration="800">YOUR NEXT BIG STEP AFTER 10+2!</h2>
                 <p className="text-[17px] lg:text-[30px] font-light text-white leading-tight" data-aos="fade-up" data-aos-duration="1000">Choose the perfect UG/PG program<br/>
                 from top universities and shape your future.</p>
               </div>
@@ -145,19 +145,19 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="py-10 lg:py-20 bg-gradient-to-r from-[#8fbc8f] to-[#8fbc8f]">
+          <section className="py-10 lg:py-20 bg-gradient-to-r from-[#44b8a5] to-[#44b8a5]">
             <div className="conatiner mx-auto px-4">
-              <h2 className="text-center text-white text-[30px] lg:text-[50px] font-bold max-w-full w-[1300px] mx-auto leading-tight" style={{textShadow: '-2px 2px black'}}>IS A DEGREE COURSE ENOUGH
+              <h2 className="text-center text-white text-[30px] lg:text-[50px] font-bold max-w-full w-[1300px] mx-auto leading-tight">IS A DEGREE COURSE ENOUGH<br className="hidden lg:block"/>
               TO FACE THE EVOLVING JOB MARKET?</h2>
               <h3 className="text-center text-black text-[25px] lg:text-[50px] font-bold max-w-full w-[1300px] mx-auto leading-tight">THE ANSWER IS A BIG NO!</h3>
             </div>
           </section>
 
-          <section className="py-6 lg:py-12">
+          <section className="py-6 lg:py-20">
             <div className="container mx-auto px-4">
               <div className="flex flex-wrap text-center">
                   <div className="w-full lg:w-[45%]">
-                    <div className="bg-gradient-to-l from-[#7BFEDE] to-[#00ff6a] py-2 rounded-xl mb-5">
+                    <div className="bg-gradient-to-l from-[#44b8a5] to-[#44b8a5] py-2 rounded-xl mb-5">
                       <span className="text-[25px] lg:text-[40px] font-bold ">Why?</span>
                     </div>
                     <div className="bg-[#000] py-5 px-6 rounded-xl bgborder mb-5 md:h-[150px] flex justify-center flex-col" data-aos="zoom-in" data-aos-duration="1000">
@@ -171,12 +171,12 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="w-full lg:w-[10%] relative">
-                    <div className="h-1 border-b-2 border-dashed border-[#94ff00] absolute top-[27%] left-0 w-full hidden lg:block"></div>
-                    <div className="h-1 border-b-2 border-dashed border-[#94ff00] absolute top-[55%] left-0 w-full hidden lg:block"></div>
-                    <div className="h-1 border-b-2 border-dashed border-[#94ff00] absolute top-[85%] left-0 w-full hidden lg:block"></div>
+                    <div className="h-1 border-b-2 border-dashed border-[#44b8a5] absolute top-[27%] left-0 w-full hidden lg:block"></div>
+                    <div className="h-1 border-b-2 border-dashed border-[#44b8a5] absolute top-[55%] left-0 w-full hidden lg:block"></div>
+                    <div className="h-1 border-b-2 border-dashed border-[#44b8a5] absolute top-[85%] left-0 w-full hidden lg:block"></div>
                   </div>
                   <div className="w-full lg:w-[45%]">
-                    <div className="bg-gradient-to-r from-[#7BFEDE] to-[#00ff6a] py-2 rounded-xl mb-5">
+                    <div className="bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] py-2 rounded-xl mb-5">
                       <span className="text-[25px] lg:text-[40px] font-bold">WHAT NEEDS TO BE DONE?</span>
                     </div>
                     <div className="bg-[#000] py-5 px-6 rounded-xl bgborder mb-5 md:h-[150px] flex justify-center flex-col" data-aos="zoom-in" data-aos-duration="1500">
@@ -199,12 +199,12 @@ export default function Home() {
           </section>
 
           <section className="bg-black">
-              <div className="bg-gradient-to-r from-[#7BFEDE] to-[#00ff9d] py-6 lg:py-10">
+              <div className="bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] py-6">
                 <h2 className="text-center text-[20px] lg:text-[45px] font-semibold leading-tight">JOIN PLACEMENT FOCUSED CERTIFICATE COURSES, TODAY!</h2>
               </div>
               <div className="container mx-auto px-4">
                 <div className="text-center my-6 lg:my-15">
-                  <h3 className="text-[25px] lg:text-[40px] leading-tight bg-gradient-to-r from-[#7BFEDE] to-[#94ff00] [background-clip:text] [-webkit-text-fill-color:transparent]">How <span className="font-bold">TutopiaPRO</span> Empowers Students</h3>
+                  <h3 className="text-[25px] lg:text-[40px] leading-tight bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent]">How <span className="font-bold">TutopiaPRO</span> Empowers Students</h3>
                   <p className="text-white font-light max-w-full w-[900px] mx-auto"> 
                       Cut through the confusion and gain clarity. Designed for B.Tech, BCA, BBA, and General Degree students,
                       TutopiaPRO bridges the gap between academia and industry with expert mentorship, real-world training,
@@ -219,7 +219,7 @@ export default function Home() {
                             <p className="text-[20px] md:text-[30px] text-center text-white bgborder w-10 h-10 md:w-14 md:h-14 rounded-full flex justify-center flex-col">1</p>
                           </div>
                           <div>
-                            <h4 className="md:text-[25px] bg-gradient-to-r from-[#7BFEDE] to-[#94ff00] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight">CUTTING-EDGE<br/> CERTIFICATION COURSES</h4>
+                            <h4 className="md:text-[25px] bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight">CUTTING-EDGE<br/> CERTIFICATION COURSES</h4>
                             <p className="text-white">backed by real-world expertise.</p>
                           </div>
                         </div>
@@ -230,7 +230,7 @@ export default function Home() {
                             <p className="text-[20px] md:text-[30px] text-center text-white bgborder w-10 h-10 md:w-14 md:h-14 rounded-full flex justify-center flex-col">2</p>
                           </div>
                           <div>
-                            <h4 className="md:text-[25px] bg-gradient-to-r from-[#7BFEDE] to-[#94ff00] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight">CUTTING-EDGE<br/> CERTIFICATION COURSES</h4>
+                            <h4 className="md:text-[25px] bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight">CUTTING-EDGE<br/> CERTIFICATION COURSES</h4>
                             <p className="text-white">backed by real-world expertise.</p>
                           </div>
                         </div>
@@ -246,7 +246,7 @@ export default function Home() {
                             <p className="text-[20px] md:text-[30px] text-center text-white bgborder w-10 h-10 md:w-14 md:h-14 rounded-full flex justify-center flex-col">3</p>
                           </div>
                           <div>
-                            <h4 className="md:text-[25px] bg-gradient-to-r from-[#7BFEDE] to-[#94ff00] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight">CUTTING-EDGE<br/> CERTIFICATION COURSES</h4>
+                            <h4 className="md:text-[25px] bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight">CUTTING-EDGE<br/> CERTIFICATION COURSES</h4>
                             <p className="text-white">backed by real-world expertise.</p>
                           </div>
                         </div>
@@ -257,7 +257,7 @@ export default function Home() {
                             <p className="text-[20px] md:text-[30px] text-center text-white bgborder w-10 h-10 md:w-14 md:h-14 rounded-full flex justify-center flex-col">4</p>
                           </div>
                           <div>
-                            <h4 className="md:text-[25px] bg-gradient-to-r from-[#7BFEDE] to-[#94ff00] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight">CUTTING-EDGE<br/> CERTIFICATION COURSES</h4>
+                            <h4 className="md:text-[25px] bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight">CUTTING-EDGE<br/> CERTIFICATION COURSES</h4>
                             <p className="text-white">backed by real-world expertise.</p>
                           </div>
                         </div>
@@ -267,11 +267,11 @@ export default function Home() {
               </div>
           </section>
 
-          <section className="py-6 lg:py-12">
+          <section className="py-6 lg:py-20">
             <div className="container mx-auto px-4">
               <div className="mb-5">
                 <h2 className="text-[25px] lg:text-[45px] text-white text-center" data-aos="fade-up" data-aos-duration="800">TutopiaPRO</h2>
-                <p className="text-center text-[16px] lg:text-[30px] bg-gradient-to-r from-[#7BFEDE] to-[#94ff00] [background-clip:text] [-webkit-text-fill-color:transparent]  leading-tight" data-aos="fade-up" data-aos-duration="1000">CERTIFICATION PROGRAMS ARE DESIGNED BY INDUSTRY EXPERTS,<br className="hidden lg:block"/>
+                <p className="text-center text-[16px] lg:text-[30px] bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent]  leading-tight" data-aos="fade-up" data-aos-duration="1000">CERTIFICATION PROGRAMS ARE DESIGNED BY INDUSTRY EXPERTS,<br className="hidden lg:block"/>
                 TAILORED FOR REAL-WORLD PLACEMENTS.</p>
               </div>
               <div>
@@ -285,9 +285,9 @@ export default function Home() {
 
           <section className="bg-black px-4 lg:px-0">
             <div className="flex flex-wrap">
-                <div className="w-full lg:w-[50%] lg:ps-28 py-6 lg:py-20 flex flex-col justify-center">
+                <div className="w-full lg:w-[50%] lg:ps-28 2xl:ps-52 py-6 lg:py-20 flex flex-col justify-center">
                     <div>
-                      <h2 className="text-[20px] lg:text-[30px] bg-gradient-to-r from-[#7BFEDE] to-[#94ff00] [background-clip:text] [-webkit-text-fill-color:transparent] font-semibold leading-tight">Our Unique Methodology for<br className="hidden lg:block"/>
+                      <h2 className="text-[20px] lg:text-[30px] bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] font-semibold leading-tight">Our Unique Methodology for<br className="hidden lg:block"/>
                         Smarter Learning & Deeper Understanding</h2>  
                     </div>
                     <div className="mt-4">
@@ -304,7 +304,7 @@ export default function Home() {
                           <Image src="/assets/icons/quotes.png" alt="flip" width={50} height={50} />
                         </div>
                         <div>
-                          <h5 className="bg-gradient-to-r from-[#7BFEDE] to-[#94ff00] [background-clip:text] [-webkit-text-fill-color:transparent] text-[20px] font-semibold">Pre-Class Preparation</h5>
+                          <h5 className="bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] text-[20px] font-semibold">Pre-Class Preparation</h5>
                           <p className="text-white">Students watch structured video tutorials to build
                           a strong foundation before live sessions.</p>
                         </div>
@@ -317,7 +317,7 @@ export default function Home() {
                           <Image src="/assets/icons/quotes.png" alt="flip" width={50} height={50} />
                         </div>
                         <div>
-                          <h5 className="bg-gradient-to-r from-[#7BFEDE] to-[#94ff00] [background-clip:text] [-webkit-text-fill-color:transparent] text-[20px] font-semibold">Interactive Live Classes</h5>
+                          <h5 className="bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] text-[20px] font-semibold">Interactive Live Classes</h5>
                           <p className="text-white">With prior knowledge, students engage in
                           discussions, ask questions and clarify doubts</p>
                         </div>
@@ -330,14 +330,14 @@ export default function Home() {
                           <Image src="/assets/icons/quotes.png" alt="flip" width={50} height={50} />
                         </div>
                         <div>
-                          <h5 className="bg-gradient-to-r from-[#7BFEDE] to-[#94ff00] [background-clip:text] [-webkit-text-fill-color:transparent] text-[20px] font-semibold">Daily Mock Test</h5>
+                          <h5 className="bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] text-[20px] font-semibold">Daily Mock Test</h5>
                           <p className="text-white">Short post-class assessments reinforce learning
                           and ensure steady improvement.</p>
                         </div>
                       </div>
                     </div>
                     <div className="mt-4 lg:mt-8">
-                      <p className="text-[20px] md:text-[25px] bg-gradient-to-r from-[#7BFEDE] to-[#94ff00] [background-clip:text] [-webkit-text-fill-color:transparent]  leading-tight">By flipping the learning process, students gain clarity,
+                      <p className="text-[20px] md:text-[25px] bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent]  leading-tight">By flipping the learning process, students gain clarity,
                       confidence and real understanding.</p>
                     </div>
                 </div>
@@ -347,10 +347,10 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="py-6 lg:py-12">
+          <section className="py-6 lg:py-20">
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-full w-[900px] mx-auto mb-6">
-                  <h2 className="text-[25px] lg:text-[45px] bg-gradient-to-r from-[#7BFEDE] to-[#94ff00] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight">Meet the Experts Behind TutopiaPRO</h2>
+                  <h2 className="text-[25px] lg:text-[45px] bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight">Meet the Experts Behind TutopiaPRO</h2>
                   <p className="text-white text-[15px] md:text-[20px] font-light">
                     We extend our gratitude to senior professionals from leading IT and tech
                     companies for vetting our courses. Their expertise ensures industry relevance,
@@ -370,10 +370,10 @@ export default function Home() {
             </div>
           </section>
           
-          <section className="py-6 lg:py-12 bg-black">
+          <section className="py-6 lg:py-20 bg-black">
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-full w-[1000px] mx-auto mb-6">
-                  <h2 className="text-[22px] lg:text-[45px] bg-gradient-to-r from-[#7BFEDE] to-[#94ff00] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight mb-3">INTRODUCING OUR<br/>
+                  <h2 className="text-[22px] lg:text-[45px] bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight mb-3">INTRODUCING OUR<br/>
                   ESTEEMED INDUSTRY MENTORS</h2>
                   <p className="text-white font-light">
                     At TutopiaPRO, well known industry experts mentor students, bringing real-world experience into the virtual classroom.

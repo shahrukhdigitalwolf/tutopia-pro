@@ -36,11 +36,11 @@ function ProgramsSlider() {
                       </div>
                       <div className='bg-[#000000b0] rounded-xl py-3 absolute bottom-2 left-1/2 -translate-x-1/2 w-[95%] backdrop-blur-[2px]'>
                           <div className='border-b border-slate-400 text-center px-3 pb-10'>
-                              <h5 className='text-[25px] font-semibold bg-gradient-to-r from-[#7BFEDE] to-[#94ff00] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight'>Data Science & Ai/ML</h5>
+                              <h5 className='text-[25px] font-semibold bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight'>Data Science & Ai/ML</h5>
                               <span className='text-[15px] text-white'>For B Tech, BCA & BSc Students</span>
                           </div>
                           <div className='text-center px-3 pt-3'>
-                              <h5 className='text-[20px] bg-gradient-to-r from-[#7BFEDE] to-[#94ff00] [background-clip:text] [-webkit-text-fill-color:transparent]'>Course Duration</h5>
+                              <h5 className='text-[20px] bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent]'>Course Duration</h5>
                               <p className='text-white'>12 Months</p>
                           </div>
                       </div>
