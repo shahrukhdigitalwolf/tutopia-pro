@@ -27,7 +27,7 @@ export default function Home() {
         <main className="bg-[#232428] overflow-hidden">
           <HeroBanner/>
 
-          <section className="py-6 lg:py-20 bg-[#232428]">
+          {/* <section className="py-6 lg:py-20 bg-[#232428]">
               <div className="max-w-full w-[1200px] mx-auto px-4">
                 <div className="flex flex-wrap gap-y-5">
                   <div className="w-full lg:w-[50%] relative flex justify-end flex-col">
@@ -132,9 +132,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </section>
+            </section> */}
 
-          <section className="bg-black py-6 lg:py-20">
+          {/* <section className="bg-black py-6 lg:py-20">
             <div className="container mx-auto px-4">
               <div className="text-center mb-6 lg:mb-20">
                 <h2 className="text-[20px] lg:text-[45px] mb-3 bg-gradient-to-r from-[#6bffca] to-[#6bffca] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight" data-aos="fade-up" data-aos-duration="800">YOUR NEXT BIG STEP AFTER 10+2!</h2>
@@ -143,7 +143,7 @@ export default function Home() {
               </div>
               <FutureSlider/>
             </div>
-          </section>
+          </section> */}
 
           <section className="py-10 lg:py-20 bg-gradient-to-r from-[#44b8a5] to-[#44b8a5]">
             <div className="conatiner mx-auto px-4">
