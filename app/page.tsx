@@ -147,9 +147,9 @@ export default function Home() {
 
           <section className="py-10 lg:py-20 bg-gradient-to-r from-[#44b8a5] to-[#44b8a5]">
             <div className="conatiner mx-auto px-4">
-              <h2 className="text-center text-white text-[30px] lg:text-[50px] font-bold max-w-full w-[1300px] mx-auto leading-tight">IS A DEGREE COURSE ENOUGH<br className="hidden lg:block"/>
-              TO FACE THE EVOLVING JOB MARKET?</h2>
-              <h3 className="text-center text-black text-[25px] lg:text-[50px] font-bold max-w-full w-[1300px] mx-auto leading-tight">THE ANSWER IS A BIG NO!</h3>
+              <h2 className="text-center text-white text-[30px] lg:text-[50px] font-bold max-w-full w-[1300px] mx-auto leading-tight">Is a degree course enough<br className="hidden lg:block"/>
+              To face the evolving job market?</h2>
+              <h3 className="text-center text-black text-[25px] lg:text-[50px] font-bold max-w-full w-[1300px] mx-auto leading-tight">The answer is a BIG NO!</h3>
             </div>
           </section>
 
@@ -200,7 +200,7 @@ export default function Home() {
 
           <section className="bg-black">
               <div className="bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] py-6">
-                <h2 className="text-center text-[20px] lg:text-[45px] font-semibold leading-tight">JOIN PLACEMENT FOCUSED CERTIFICATE COURSES, TODAY!</h2>
+                <h2 className="text-center text-[20px] lg:text-[45px] font-semibold leading-tight">Join placement focused certificate courses, today!</h2>
               </div>
               <div className="container mx-auto px-4">
                 <div className="text-center my-6 lg:my-15">
@@ -283,71 +283,73 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="bg-black px-4 lg:px-0">
-            <div className="flex flex-wrap">
-                <div className="w-full lg:w-[50%] lg:ps-28 2xl:ps-52 py-6 lg:py-20 flex flex-col justify-center">
-                    <div>
-                      <h2 className="text-[20px] lg:text-[30px] bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] font-semibold leading-tight">Our Unique Methodology for<br className="hidden lg:block"/>
-                        Smarter Learning & Deeper Understanding</h2>  
-                    </div>
-                    <div className="mt-4">
-                      <div className="flex items-center gap-x-2 mb-3">
-                        <Image src="/assets/icons/flip.svg" alt="flip" width={60} height={60} />
-                        <h3 className="text-white text-[25px] lg:text-[30px] font-semibold leading-tight">FLIP METHOD OF TEACHING</h3>
-                      </div>
-                      <p className="text-gray-200 font-[300]">Traditional learning can leave students struggling with new concepts. The Flip Method turns this
-                      around by preparing students before class, making live sessions more interactive and effective.</p>
-                    </div>
-                    <div className="max-w-full w-[500px] mt-8 mx-auto lg:mx-0">
-                      <div className="flex items-center gap-x-2 bgborder rounded-xl p-3" data-aos="zoom-out-up" data-aos-duration="800">
-                        <div>
-                          <Image src="/assets/icons/pre-class.svg" alt="flip" width={80} height={80} />
-                        </div>
-                        <div>
-                          <h5 className="bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] text-[20px] font-semibold">Pre-Class Preparation</h5>
-                          <p className="text-gray-200 font-[300]">Students watch structured video tutorials to build
-                          a strong foundation before live sessions.</p>
-                        </div>
-                      </div>
+          <section className="bg-black  lg:px-0">
+            <div className="">
+              <div className="flex flex-wrap">
+                  <div className="w-full lg:w-[50%] lg:ps-26 2xl:ps-52 px-4 py-6 lg:py-20 flex flex-col justify-center">
                       <div>
-                        <Image className="rotate-90 mx-auto" src='/assets/icons/arrow.png' alt="arrow" width={50} height={50}/>
+                        <h2 className="text-[20px] lg:text-[30px] bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] font-semibold leading-tight">Our Unique Methodology for<br className="hidden lg:block"/>
+                          Smarter Learning & Deeper Understanding</h2>  
                       </div>
-                      <div className="flex items-center gap-x-2 bgborder rounded-xl p-3" data-aos="zoom-out-up" data-aos-duration="1000">
-                        <div>
-                          <Image src="/assets/icons/live-class.svg" alt="flip" width={80} height={80} />
+                      <div className="mt-4">
+                        <div className="flex items-center gap-x-2 mb-3">
+                          <Image src="/assets/icons/flip.svg" alt="flip" width={60} height={60} />
+                          <h3 className="text-white text-[25px] lg:text-[30px] font-semibold leading-tight">FLIP METHOD OF TEACHING</h3>
+                        </div>
+                        <p className="text-gray-200 font-[300]">Traditional learning can leave students struggling with new concepts. The Flip Method turns this
+                        around by preparing students before class, making live sessions more interactive and effective.</p>
+                      </div>
+                      <div className="max-w-full w-[500px] mt-8 mx-auto lg:mx-0">
+                        <div className="flex items-center gap-x-2 bgborder rounded-xl p-3" data-aos="zoom-out-up" data-aos-duration="800">
+                          <div>
+                            <Image src="/assets/icons/pre-class.svg" alt="flip" width={80} height={80} />
+                          </div>
+                          <div>
+                            <h5 className="bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] text-[20px] font-semibold">Pre-Class Preparation</h5>
+                            <p className="text-gray-200 font-[300]">Students watch structured video tutorials to build
+                            a strong foundation before live sessions.</p>
+                          </div>
                         </div>
                         <div>
-                          <h5 className="bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] text-[20px] font-semibold">Interactive Live Classes</h5>
-                          <p className="text-gray-200 font-[300]">With prior knowledge, students engage in
-                          discussions, ask questions and clarify doubts</p>
+                          <Image className="rotate-90 mx-auto" src='/assets/icons/arrow.png' alt="arrow" width={50} height={50}/>
                         </div>
-                      </div>
-                      <div>
-                        <Image className="rotate-90 mx-auto" src='/assets/icons/arrow.png' alt="arrow" width={50} height={50} />
-                      </div>
-                      <div className="flex items-center gap-x-2 bgborder rounded-xl p-3" data-aos="zoom-out-up" data-aos-duration="1200">
+                        <div className="flex items-center gap-x-2 bgborder rounded-xl p-3" data-aos="zoom-out-up" data-aos-duration="1000">
+                          <div>
+                            <Image src="/assets/icons/live-class.svg" alt="flip" width={80} height={80} />
+                          </div>
+                          <div>
+                            <h5 className="bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] text-[20px] font-semibold">Interactive Live Classes</h5>
+                            <p className="text-gray-200 font-[300]">With prior knowledge, students engage in
+                            discussions, ask questions and clarify doubts</p>
+                          </div>
+                        </div>
                         <div>
-                          <Image src="/assets/icons/mock-test.svg" alt="flip" width={80} height={80} />
+                          <Image className="rotate-90 mx-auto" src='/assets/icons/arrow.png' alt="arrow" width={50} height={50} />
                         </div>
-                        <div>
-                          <h5 className="bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] text-[20px] font-semibold">Daily Mock Test</h5>
-                          <p className="text-gray-200 font-[300]">Short post-class assessments reinforce learning
-                          and ensure steady improvement.</p>
+                        <div className="flex items-center gap-x-2 bgborder rounded-xl p-3" data-aos="zoom-out-up" data-aos-duration="1200">
+                          <div>
+                            <Image src="/assets/icons/mock-test.svg" alt="flip" width={80} height={80} />
+                          </div>
+                          <div>
+                            <h5 className="bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] text-[20px] font-semibold">Daily Mock Test</h5>
+                            <p className="text-gray-200 font-[300]">Short post-class assessments reinforce learning
+                            and ensure steady improvement.</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div className="mt-4 lg:mt-8">
-                      <p className="text-[20px] md:text-[25px] bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent]  leading-tight">By flipping the learning process, students gain clarity,
-                      confidence and real understanding.</p>
-                    </div>
-                </div>
-                <div className="w-full lg:w-[50%] flex justify-end flex-col">
-                    <Image className="ms-auto" src="/assets/img/others/boy-3.webp" alt="" width={800} height={838} />
-                </div>
+                      <div className="mt-4 lg:mt-8">
+                        <p className="text-[20px] md:text-[25px] bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent]  leading-tight">By flipping the learning process, students gain clarity,
+                        confidence and real understanding.</p>
+                      </div>
+                  </div>
+                  <div className="w-full lg:w-[50%] flex justify-end flex-col">
+                      <Image className="ms-auto" src="/assets/img/others/boy-3.webp" alt="" width={800} height={838} />
+                  </div>
+              </div>
             </div>
           </section>
 
-          <section className="py-6 lg:py-20">
+          {/* <section className="py-6 lg:py-20">
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-full w-[900px] mx-auto mb-6">
                   <h2 className="text-[25px] lg:text-[45px] bg-gradient-to-r from-[#fff] to-[#fff] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight">Meet the Experts Behind TutopiaPRO</h2>
@@ -368,7 +370,7 @@ export default function Home() {
                   }
                 </div>
             </div>
-          </section>
+          </section> */}
           
           <section className="py-6 lg:py-20 bg-black">
             <div className="container mx-auto px-4">
