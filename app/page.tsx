@@ -4,7 +4,7 @@ import LpHeader from "./components/header/LpHeader";
 import HeroBanner from "./components/home/HeroBanner";
 /* import FutureSlider from "./components/home/FutureSlider"; */
 import ProgramsSlider from "./components/home/ProgramsSlider";
-import ExpertsCards from "./components/home/ExpertsCards";
+/* import ExpertsCards from "./components/home/ExpertsCards"; */
 import IndustryMoniterCards from "./components/home/IndustryMoniterCards";
 import Footer from "./components/footer/Footer";
 import { useEffect } from "react";

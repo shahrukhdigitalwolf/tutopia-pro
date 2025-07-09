@@ -41,7 +41,7 @@ function page() {
               <div className="border border-[#2c2c2c] mb-10">
                 <div className="py-3 px-3">
                   <p className="text-[25px] text-white font-bold">
-                    What you'll learn
+                    What you&apos;ll learn
                   </p>
                 </div>
                 <div className="px-3 py-5 flex flex-wrap gap-y-5">
