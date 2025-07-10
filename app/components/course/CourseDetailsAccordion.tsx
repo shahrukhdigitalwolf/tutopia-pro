@@ -54,7 +54,7 @@ const CourseDetailsAccordion = () => {
         const isOpen = activeIndex === index;
 
         return (
-          <div key={index} className="bg-gray-800 mb-5">
+          <div key={index} className="bg-[#232428] border border-[#6bffca] mb-5">
             <button
               onClick={() => toggleAccordion(index)}
               className="w-full flex justify-between items-center text-[20px] text-left text-white px-4 py-3 font-bold hover:bg-gray-700 transition"
@@ -66,7 +66,7 @@ const CourseDetailsAccordion = () => {
             </button>
 
             <div
-              className={`overflow-hidden transition-all duration-500 ease-in-out bg-gray-900 ${
+              className={`overflow-hidden transition-all duration-500 ease-in-out bg-[#0f1011] ${
                 isOpen ? "max-h-40 opacity-100" : "max-h-0 opacity-0"
               }`}
             >
