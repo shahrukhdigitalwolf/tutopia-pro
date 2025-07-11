@@ -3,6 +3,38 @@ import React from 'react'
 // @ts-expect-error - Splide types issue
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import Image from 'next/image';
+import Link from 'next/link';
+
+const courseCardData = [
+  {
+    title: 'Data Science & Ai/ML',
+    desc: 'For B Tech, BCA & BSc Students',
+    duration: '12 Months',
+    img: '/assets/img/others/1.webp',
+    href:'/course'
+  },
+  {
+    title: 'Digital Marketing & Business Analytics',
+    desc: 'For BBA Students',
+    duration: '12 Months',
+    img: '/assets/img/others/2.webp',
+    href:'/course'
+  },
+  {
+    title: 'Visual Communication',
+    desc: 'For General, UG/PG, BA/BSC in Animation/Multimedia',
+    duration: '12 Months',
+    img: '/assets/img/others/3.webp',
+    href:'/course'
+  },
+  {
+    title: 'Game Design & Development',
+    desc: 'For B Tech, BCA & BSc Students',
+    duration: '12 Months',
+    img: '/assets/img/others/4.webp',
+    href:'/course'
+  },
+]
 
 function ProgramsSlider() {
   return (
@@ -27,24 +59,26 @@ function ProgramsSlider() {
         }}
       >
         {
-          [...Array(6)].map((_,i)=>{
+          courseCardData.map((ele,i)=>{
             return(
               <SplideSlide key={i}>
-                  <div className='relative group rounded-xl overflow-hidden'>
+                <Link href={ele.href} className='block relative'>
+                  <div className=' border-2 border-[#44b8a5] group rounded-[20px] overflow-hidden'>
                       <div>
-                          <Image className='mx-auto rounded-xl group-hover:scale-105 transition-all duration-500' src="/assets/img/others/program-1.webp" alt="" width={600} height={800}/>
+                          <Image className='mx-auto rounded-xl group-hover:scale-105 transition-all duration-500' src={ele.img} alt="" width={600} height={800}/>
                       </div>
                       <div className='bg-[#000000b0] rounded-xl py-3 absolute bottom-2 left-1/2 -translate-x-1/2 w-[95%] backdrop-blur-[2px]'>
                           <div className='border-b border-slate-400 text-center px-3 pb-10'>
-                              <h5 className='text-[25px] font-semibold bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight'>Data Science & Ai/ML</h5>
-                              <span className='text-[15px] text-white'>For B Tech, BCA & BSc Students</span>
+                              <h5 className='text-[25px] font-semibold bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent] leading-tight'>{ele.title}</h5>
+                              <span className='text-[15px] text-white'>{ele.desc}</span>
                           </div>
                           <div className='text-center px-3 pt-3'>
                               <h5 className='text-[20px] bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] [background-clip:text] [-webkit-text-fill-color:transparent]'>Course Duration</h5>
-                              <p className='text-white'>12 Months</p>
+                              <p className='text-white'>{ele.duration}</p>
                           </div>
                       </div>
                   </div>
+                </Link>
               </SplideSlide>
             )
           })

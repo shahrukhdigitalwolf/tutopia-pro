@@ -21,7 +21,7 @@ function HeroBannerCourses() {
         <div className='mt-5 mb-5'>
             <span className='bg-[#44b8a5] text-white px-4 py-1 rounded'>Bestseller</span>
         </div>
-        <div className='flex items-center gap-x-2'>
+        <div className='md:flex items-center gap-x-2'>
             <p className='font-bold text-white'>Created by</p>
             <Link href="" className='text-[#c0c4fc]'>Stephane Maarek | AWS Certified Cloud Practitioner,Solutions Architect,Developer</Link>
         </div>
