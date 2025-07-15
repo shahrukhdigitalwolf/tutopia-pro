@@ -16,11 +16,11 @@ export const reviewData = [
       review: `Stephane bring so much of his expertise in Cloud Computing to this course and with no prior knowledge in Cloud, I am really excited to start on a new venture in the clouds, Aiming high to clear the CCP and get certified with the knowledge I have gained through this course, Mucha Gracias Stephane !!!`,
     },
     {
-      userName: "danish K.",
+      userName: "v K.",
       review: `Stephane bring so much of his expertise in Cloud Computing to this course and with no prior knowledge in Cloud, I am really excited to start on a new venture in the clouds, Aiming high to clear the CCP and get certified with the knowledge I have gained through this course, Mucha Gracias Stephane !!!`,
     },
     {
-      userName: "shahrukh K.",
+      userName: "c K.",
       review: `Stephane bring so much of his expertise in Cloud Computing`,
     },
     {

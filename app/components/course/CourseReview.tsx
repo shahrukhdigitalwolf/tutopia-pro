@@ -28,7 +28,7 @@ function CourseReview({ name, review }: reviewProps) {
           </Avatar>
         </div>
         <div>
-          <h4 className="text-white text-[16px] font-bold">{name}</h4>
+          <h4 className="text-white text-[16px] font-bold capitalize">{name}</h4>
           <div className="flex items-center gap-x-2">
             <Rating
               name="read-only"
