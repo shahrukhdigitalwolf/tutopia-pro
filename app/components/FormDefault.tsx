@@ -64,7 +64,6 @@ function FormDefault() {
                 ])
             });
 
-            const data = await res.json();
 
             if (!res.ok) {
                 throw new Error("Something went wrong");
