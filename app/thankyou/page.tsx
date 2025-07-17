@@ -45,7 +45,7 @@ function Thankyou() {
                                 </li>
                             </ul>
                         </div>
-                        <a href='/' className='text-sky-600'>GoBack</a>
+                        <Link href='/' className='text-sky-600'>GoBack</Link>
                     </div>
                 </section>
             </main>
