@@ -7,11 +7,8 @@ import Link from 'next/link'
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import { useRouter } from 'next/navigation'
 
 function Thankyou() {
-
-    const router = useRouter()
 
     return (
         <>
@@ -32,23 +29,23 @@ function Thankyou() {
                             <h2 className='text-[20px] lg:text-[30px] text-white font-semibold mb-3'>Follow Us</h2>
                             <ul className='flex justify-center items-center gap-x-2'>
                                 <li className='border-2 border-white px-2 py-1.5 md:p-2 rounded-full hover:bg-[#525252]'>
-                                    <Link href='#'>
+                                    <Link href='https://www.instagram.com/tutopiapro/'>
                                         <InstagramIcon fontSize='medium' sx={{ color: 'white', fontSize: { xs: '20px', md: '22px' } }} />
                                     </Link>
                                 </li>
                                 <li className='border-2 border-white px-2 py-1.5 md:p-2 rounded-full hover:bg-[#525252]'>
-                                    <Link href='#'>
+                                    <Link href='https://www.facebook.com/profile.php?id=61576973384734'>
                                         <FacebookIcon fontSize='medium' sx={{ color: 'white', fontSize: { xs: '20px', md: '22px' } }} />
                                     </Link>
                                 </li>
                                 <li className='border-2 border-white px-2 py-1.5 md:p-2 rounded-full hover:bg-[#525252]'>
-                                    <Link href='#'>
+                                    <Link href='https://www.youtube.com/@tutopiapro9154'>
                                         <YouTubeIcon fontSize='medium' sx={{ color: 'white', fontSize: { xs: '20px', md: '22px' } }} />
                                     </Link>
                                 </li>
                             </ul>
                         </div>
-                        <button className='text-sky-600' onClick={()=> router.back()}>GoBack</button>
+                        <a href='/' className='text-sky-600'>GoBack</a>
                     </div>
                 </section>
             </main>

@@ -149,7 +149,7 @@ export default function Home() {
             <div className="conatiner mx-auto px-4">
               <h2 className="text-center text-white text-[30px] lg:text-[50px] font-bold max-w-full w-[1300px] mx-auto leading-tight">Is a degree course enough<br className="hidden lg:block"/>
               To face the evolving job market?</h2>
-              <h3 className="text-center text-black text-[25px] lg:text-[50px] font-bold max-w-full w-[1300px] mx-auto leading-tight">The answer is a BIG NO!</h3>
+              <h3 className="text-center text-white text-[25px] lg:text-[50px] font-bold max-w-full w-[1300px] mx-auto">The answer is a <span className="text-black">BIG NO!</span></h3>
             </div>
           </section>
 
@@ -171,9 +171,9 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="w-full lg:w-[10%] relative">
-                    <div className="h-1 border-b-2 border-dashed border-[#44b8a5] absolute top-[27%] left-0 w-full hidden lg:block"></div>
-                    <div className="h-1 border-b-2 border-dashed border-[#44b8a5] absolute top-[55%] left-0 w-full hidden lg:block"></div>
-                    <div className="h-1 border-b-2 border-dashed border-[#44b8a5] absolute top-[85%] left-0 w-full hidden lg:block"></div>
+                    <div className="h-1 border-b-2 border-dashed border-[#44b8a5] absolute top-[27%] left-0 w-full hidden lg:block before:content-[''] before:w-[15px] before:h-[3px] before:absolute before:-top-[2px] before:left-15 before:bg-[#44b8a5] before:rotate-35 after:content-[''] after:w-[15px] after:h-[3px] after:absolute after:top-[5px] after:left-15 after:bg-[#44b8a5] after:-rotate-35" data-aos="zoom-in" data-aos-duration="800"></div>
+                    <div className="h-1 border-b-2 border-dashed border-[#44b8a5] absolute top-[55%] left-0 w-full hidden lg:block before:content-[''] before:w-[15px] before:h-[3px] before:absolute before:-top-[2px] before:left-15 before:bg-[#44b8a5] before:rotate-35 after:content-[''] after:w-[15px] after:h-[3px] after:absolute after:top-[5px] after:left-15 after:bg-[#44b8a5] after:-rotate-35" data-aos="zoom-in" data-aos-duration="800"></div>
+                    <div className="h-1 border-b-2 border-dashed border-[#44b8a5] absolute top-[85%] left-0 w-full hidden lg:block before:content-[''] before:w-[15px] before:h-[3px] before:absolute before:-top-[2px] before:left-15 before:bg-[#44b8a5] before:rotate-35 after:content-[''] after:w-[15px] after:h-[3px] after:absolute after:top-[5px] after:left-15 after:bg-[#44b8a5] after:-rotate-35" data-aos="zoom-in" data-aos-duration="800"></div>
                   </div>
                   <div className="w-full lg:w-[45%]">
                     <div className="bg-gradient-to-r from-[#44b8a5] to-[#44b8a5] py-2 rounded-xl mb-5">

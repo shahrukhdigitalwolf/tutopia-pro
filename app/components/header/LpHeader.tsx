@@ -17,17 +17,17 @@ function LpHeader() {
             <div>
                 <ul className='flex items-center gap-x-2'>
                   <li className='border-2 border-white px-2 py-1 md:p-1.5 rounded-lg hover:bg-[#525252]'>
-                    <Link href='#'>
+                    <Link href='https://www.instagram.com/tutopiapro/'>
                       <InstagramIcon fontSize='medium' sx={{color:'white',fontSize:{xs:'20px',md:'24px'}}}/>
                     </Link>
                   </li>
                   <li className='border-2 border-white px-2 py-1 md:p-1.5 rounded-lg hover:bg-[#525252]'>
-                    <Link href='#'>
+                    <Link href='https://www.facebook.com/profile.php?id=61576973384734'>
                       <FacebookIcon fontSize='medium' sx={{color:'white',fontSize:{xs:'20px',md:'24px'}}}/>
                     </Link>
                   </li>
                   <li className='border-2 border-white px-2 py-1 md:p-1.5 rounded-lg hover:bg-[#525252]'>
-                    <Link href='#'>
+                    <Link href='https://www.youtube.com/@tutopiapro9154'>
                       <YouTubeIcon fontSize='medium' sx={{color:'white',fontSize:{xs:'20px',md:'24px'}}}/>
                     </Link>
                   </li>
