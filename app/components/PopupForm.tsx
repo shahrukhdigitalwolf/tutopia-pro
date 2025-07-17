@@ -76,7 +76,7 @@ export default function PopupForm() {
         onClick={handleClickOpen}
         sx={{ color: 'white', borderColor: 'white', textTransform: 'capitalize' }}
       >
-        Enquary
+        Enquiry
       </Button>
 
       <Dialog open={open} onClose={handleClose} sx={{ p: 0, backgroundColor: '#000000e8' }}>

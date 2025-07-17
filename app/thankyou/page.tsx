@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import LpHeader from '../components/header/LpHeader'
 import Footer from '../components/footer/Footer'
@@ -6,8 +7,12 @@ import Link from 'next/link'
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import { useRouter } from 'next/navigation'
 
-function page() {
+function Thankyou() {
+
+    const router = useRouter()
+
     return (
         <>
             <LpHeader />
@@ -43,7 +48,7 @@ function page() {
                                 </li>
                             </ul>
                         </div>
-                        <Link className='text-sky-600' href='/'>GoBack</Link>
+                        <button className='text-sky-600' onClick={()=> router.back()}>GoBack</button>
                     </div>
                 </section>
             </main>
@@ -52,4 +57,4 @@ function page() {
     )
 }
 
-export default page
+export default Thankyou
