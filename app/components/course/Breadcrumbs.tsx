@@ -6,13 +6,7 @@ function Breadcrumbs() {
     <div>
         <ul className='flex items-center gap-x-2 text-white'>
             <li>
-                <Link className='text-[#c0c4fc]' href='#'>IT & Software</Link>
-            </li>
-            <li>
-                <Link className='text-[#c0c4fc]' href='#'>IT Certifications</Link>
-            </li>
-            <li>
-                <Link className='text-[#c0c4fc]' href='#'>Amazon AWS</Link>
+                <Link className='text-[#c0c4fc]' href='#'>Certification Course</Link>
             </li>
         </ul>
     </div>

@@ -1,8 +1,7 @@
-import Link from 'next/link'
+
 import React from 'react'
 import Breadcrumbs from './Breadcrumbs'
 import HeadlineCourse from './HeadlineCourse'
-import Image from 'next/image'
 
 function HeroBannerCourses() {
   return (
@@ -12,14 +11,14 @@ function HeroBannerCourses() {
         </div>
         <div className='mb-3'>
             <HeadlineCourse
-              text='[NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02 2025'
+              text='Certification in Game Design, Art & Development [24 Months]'
             />
         </div>
         <div className='mb-3'>
-            <p className='text-white'>Full Practice Exam included + explanations | Learn Cloud Computing | Pass the AWS Cloud Practitioner CLF-C02 exam!</p>
+            <p className='text-white'>Early exit after 13 months with Certification in Game Design & Art.</p>
         </div>
-        <div className='mt-5 mb-5'>
-            <span className='bg-[#44b8a5] text-white px-4 py-1 rounded'>Bestseller</span>
+        {/* <div className='mt-5 mb-5'>
+            <span className='bg-[#44b8a5] text-white px-4 py-1 rounded'>Game Design (3 Months)</span>
         </div>
         <div className='md:flex items-center gap-x-2'>
             <p className='font-bold text-white'>Created by</p>
@@ -34,7 +33,7 @@ function HeroBannerCourses() {
                 <Image src='/assets/icons/globe.png' alt='' width={20} height={20} />
                 <span className='text-white'>English</span>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }

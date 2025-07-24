@@ -7,7 +7,7 @@ interface textProps {
 function HeadlineCourse({text}: textProps) {
   return (
     <div>
-      <h1 className='text-white text-[25px] lg:text-[35px] leading-tight'>{text}</h1>
+      <h1 className='text-white text-[22px] lg:text-[30px] leading-tight'>{text}</h1>
     </div>
   )
 }

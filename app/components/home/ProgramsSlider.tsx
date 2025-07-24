@@ -32,7 +32,7 @@ const courseCardData = [
     desc: 'For B Tech, BCA & BSc Students',
     duration: '12 Months',
     img: '/assets/img/others/4.webp',
-    href:'/course'
+    href:'/game-design-art-and-development'
   },
 ]
 
