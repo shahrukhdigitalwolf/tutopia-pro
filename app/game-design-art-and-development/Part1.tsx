@@ -83,7 +83,7 @@ const courseDetails = [
 
 function Part1() {
     return (
-        <div className='border-b border-[#252525] mb-10'>
+        <div className='border-b border-[#252525] mb-10' id='part1'>
             <div className='mb-3'>
                 <span className='bg-[#44b8a5] text-white font-semibold px-4 py-2 rounded'>Part 1</span>
                 <h2 className="text-[25px] text-white mt-3">Game Design ( 3 Months )</h2>

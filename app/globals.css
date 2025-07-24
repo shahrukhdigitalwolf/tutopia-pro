@@ -4,6 +4,9 @@
 html {
   scroll-behavior: smooth;
 }
+#part1, #part2, #part3 {
+  scroll-margin-top: 120px; /* Adjust based on your header height */
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
