@@ -135,7 +135,7 @@ const courseDetails = [
 function Part3() {
     return (
         <>
-            <div className='mb-3'>
+            <div className='mb-3' id='part3'>
                 <span className='bg-[#44b8a5] text-white font-semibold px-4 py-2 rounded'>Part 3</span>
                 <h2 className="text-[25px] text-white mt-3 leading-tight">Game Development ( 11 Months )</h2>
             </div>

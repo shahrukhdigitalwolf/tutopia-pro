@@ -6,6 +6,7 @@ import Footer from "../components/footer/Footer";
 import Part1 from "./Part1";
 import Part2 from "./Part2";
 import Part3 from "./Part3";
+import Link from "next/link";
 
 
 function page() {
@@ -30,6 +31,20 @@ function page() {
             <div className="flex flex-wrap justify-center">
 
               <div className="w-full lg:w-[60%] md:px-1.5">
+
+                <div className="mb-10 sticky top-15 bg-[#000] py-3">
+                    <ul className="flex items-center gap-x-3">
+                      <li>
+                          <Link className="border border-[#44b8a5] hover:bg-gray-800 text-white rounded px-5 py-1" href="#part1">Part 1</Link>
+                      </li>
+                      <li>
+                          <Link className="border border-[#44b8a5] hover:bg-gray-800 text-white rounded px-5 py-1" href="#part2">Part 2</Link>
+                      </li>
+                      <li>
+                          <Link className="border border-[#44b8a5] hover:bg-gray-800 text-white rounded px-5 py-1" href="#part3">Part 3</Link>
+                      </li>
+                    </ul>
+                </div>
 
                 {/* --------------------- */}
                 <Part1 />

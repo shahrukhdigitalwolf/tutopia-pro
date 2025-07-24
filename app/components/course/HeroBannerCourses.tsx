@@ -1,4 +1,3 @@
-
 import React from 'react'
 import Breadcrumbs from './Breadcrumbs'
 import HeadlineCourse from './HeadlineCourse'
