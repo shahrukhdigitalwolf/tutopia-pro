@@ -11,21 +11,21 @@ const courseCardData = [
     desc: 'For B Tech, BCA & BSc Students',
     duration: '12 Months',
     img: '/assets/img/others/1.webp',
-    href:'/course'
+    href:'#'
   },
   {
-    title: 'Digital Marketing & Business Analytics',
+    title: 'Digital Marketing',
     desc: 'For BBA Students',
     duration: '12 Months',
     img: '/assets/img/others/2.webp',
-    href:'/course'
+    href:'/digital-marketing-course'
   },
   {
-    title: 'Visual Communication',
-    desc: 'For General, UG/PG, BA/BSC in Animation/Multimedia',
+    title: 'Business Analytics',
+    desc: 'For General, UG/PG, BA/BSC',
     duration: '12 Months',
     img: '/assets/img/others/3.webp',
-    href:'/course'
+    href:'/business-analytics'
   },
   {
     title: 'Game Design & Development',

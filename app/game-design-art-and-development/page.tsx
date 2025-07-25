@@ -8,6 +8,11 @@ import Part2 from "./Part2";
 import Part3 from "./Part3";
 import Link from "next/link";
 
+const heroBanner = {
+  breadcrumb:'Certificate Course',
+  heading:'Business Analytics Course [6 Months]',
+  desc: 'Early exit after 13 months with Certification in Game Design & Art.'
+}
 
 function page() {
   return (
@@ -18,7 +23,9 @@ function page() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center">
               <div className="w-full lg:w-[60%]">
-                <HeroBannerCourses />
+                <HeroBannerCourses 
+                  heroBanner={heroBanner}
+                />
               </div>
               <div className="w-full lg:w-[30%]"></div>
             </div>
