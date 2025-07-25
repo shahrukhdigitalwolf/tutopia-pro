@@ -2,21 +2,25 @@ import React from 'react'
 import Breadcrumbs from './Breadcrumbs'
 import HeadlineCourse from './HeadlineCourse'
 
-function HeroBannerCourses() {
-  return (
-    <div>
-        <div className='mb-3'>
-            <Breadcrumbs/>
-        </div>
-        <div className='mb-3'>
-            <HeadlineCourse
-              text='Certification in Game Design, Art & Development [24 Months]'
-            />
-        </div>
-        <div className='mb-3'>
-            <p className='text-white'>Early exit after 13 months with Certification in Game Design & Art.</p>
-        </div>
-        {/* <div className='mt-5 mb-5'>
+interface bannerProps { heroBanner: { breadcrumb: string; heading: string; desc: string; }; }
+
+function HeroBannerCourses({heroBanner}: bannerProps) {
+    return (
+        <div>
+            <div className='mb-3'>
+                <Breadcrumbs 
+                    breadcrumb={heroBanner.breadcrumb}
+                />
+            </div>
+            <div className='mb-3'>
+                <HeadlineCourse
+                    text={heroBanner.heading}
+                />
+            </div>
+            <div className='mb-3'>
+                <p className='text-white'>{heroBanner.desc}</p>
+            </div>
+            {/* <div className='mt-5 mb-5'>
             <span className='bg-[#44b8a5] text-white px-4 py-1 rounded'>Game Design (3 Months)</span>
         </div>
         <div className='md:flex items-center gap-x-2'>
@@ -33,8 +37,8 @@ function HeroBannerCourses() {
                 <span className='text-white'>English</span>
             </div>
         </div> */}
-    </div>
-  )
+        </div>
+    )
 }
 
 export default HeroBannerCourses
